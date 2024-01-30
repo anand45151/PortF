@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +9,18 @@
     <script src="https://kit.fontawesome.com/f233d3310e.js" crossorigin="anonymous"></script>
 
 </head>
-<body>    
+
+<body>
     <div id="header">
         <div class="container">
             <nav>
-                <img src="images/logo.png" class="logo">
+                <img src="images/anandcircle.png" class="logo">
                 <ul id="sidemenu">
-                    <li><a href="#" class="navv">Home</a></li>
-                    <li><a href="#" class="navv">About</a></li>
-                    <li><a href="#" class="navv">Services</a></li>
-                    <li><a href="#" class="navv">Portfolio</a></li>
-                    <li><a href="#" class="navv">Contact</a></li>
+                    <li><a href="#header" class="navv">Home</a></li>
+                    <li><a href="#about" class="navv">About</a></li>
+                    <li><a href="#services" class="navv">Services</a></li>
+                    <li><a href="#portfolio" class="navv">Portfolio</a></li>
+                    <li><a href="#contact" class="navv">Contact</a></li>
                     <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
@@ -41,10 +43,12 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="subtitle">About me </h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit iure eveniet natus, expedita
-                        ipsam, odio cumque obcaecati ipsum illo delectus laborum culpa amet nisi provident. Error, nam.
-                        Minus voluptatibus eaque enim, doloremque sapiente nisi harum repellat error veniam at omnis,
-                        voluptate nobis quaerat fugit quidem vitae repudiandae labore. Voluptatem, quos?</p>
+                    <p>
+                        Hello, I'm Anand Yadav, a dedicated coder and technology enthusiast with a diverse skill set and
+                        a passion for crafting robust and efficient solutions. Currently pursuing my MCA and holding a
+                        Bachelor's degree in Computer Applications (BCA), I'm on a relentless journey to expand my
+                        knowledge and contribute to the ever-evolving world of technology.
+                    </p>
 
                     <div class="tab-titles">
                         <p class="tab-links active-link " onclick="opentabe('skills')">Skills</p>
@@ -93,26 +97,48 @@
     </div>
     <!-- ------------SERVICES******************************---------------------- -->
 
-    <div class="services">
+    <div id="services">
         <div class="container">
             <h1 class="subtitle">My Services </h1>
             <div class="serviecs-list">
                 <div>
                     <i class="fa-brands fa-android"></i>
                     <h2>App design</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, repellendus.</p>
+                    <p>
+                        I specialize in cross-platform mobile app development, proficient in Android with Kotlin, Java,
+                        and Jetpack, as well as Flutter. I excel in crafting seamless and user-friendly experiences,
+                        leveraging the latest technologies to deliver high-quality mobile applications.
+                    </p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-crop"></i>
                     <h2>Web design</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, repellendus.</p>
+                    <p>
+                        I am proficient in web development, utilizing HTML, CSS, and JavaScript to create responsive and
+                        visually appealing websites. Additionally, I have expertise in building dynamic and interactive
+                        user interfaces using React.js, ensuring a seamless and engaging user experience.
+                    </p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-cubes-stacked"></i>
                     <h2>Backed Developer</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, repellendus.</p>
+                    <p>
+                        I specialize in backend development using ASP.NET and Spring Boot, leveraging JDBC for efficient
+                        database connectivity.
+
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <!-- <br> -->
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Base</h2>
+                    <p>
+                        I handle diverse databases like MySQL, SQLite, SQL, and Firebase, ensuring seamless integration
+                        and optimized performance for data-driven projects.
+                    </p>
                     <a href="#">Learn More</a>
                 </div>
             </div>
@@ -194,7 +220,7 @@
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                         <button type="submit" class="btn btn2">submit</button>
                     </form>
-          
+
                 </div>
                 <a href="images/AnandResume.pdf" download class="btn btn2">Downlod CV</a>
             </div>
@@ -227,16 +253,17 @@
 </script>
 <script>
     var sidemenu = document.getElementById("sidemenu");
-    
-    function openmenu(){
-        
+
+    function openmenu() {
+
         sidemenu.style.right = "0";
 
     }
-    function closemenu(){
-        
+    function closemenu() {
+
         sidemenu.style.right = "-200px";
 
     }
 </script>
+
 </html>
