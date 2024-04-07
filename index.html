@@ -7,39 +7,40 @@
     <title>Portfolio Website </title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/f233d3310e.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
     <div id="header">
         <div class="container">
             <nav>
-                <img src="images/anandcircle.png" class="logo">
+                <img src="images/anandcircle-PhotoRoom.png" class="logo">
                 <ul id="sidemenu">
                     <li><a href="#header" class="navv">Home</a></li>
                     <li><a href="#about" class="navv">About</a></li>
                     <li><a href="#services" class="navv">Services</a></li>
                     <li><a href="#portfolio" class="navv">Portfolio</a></li>
                     <li><a href="#contact" class="navv">Contact</a></li>
-                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    <!-- <li><button class="dark-mode-toggle">Toggle Dark Mode</button></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i> -->
+                    <br>
                 </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
             </nav>
             <div class="header-text">
-                <p>Android Developer</p>
-                <h1>HI, I'm a <span>Anand </span><br>
-                    From India.</h1>
+                <p>Hello I am,</p>
+                <h1 <br> Anand YADAV
+                    <h1>A passionate <span id="text"></span> </h1>
+                </h1>
 
             </div>
         </div>
     </div>
-
     <!-- About ----------------------------------------------->
     <div id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/ANAND.jpg" style="height: 400px; width: 400px;" alt="">
+                    <img src="images/ANAND_bag.jpg" style="height: 400px; width: 400px;" alt="">
                 </div>
                 <div class="about-col-2">
                     <h1 class="subtitle">About me </h1>
@@ -49,7 +50,6 @@
                         Bachelor's degree in Computer Applications (BCA), I'm on a relentless journey to expand my
                         knowledge and contribute to the ever-evolving world of technology.
                     </p>
-
                     <div class="tab-titles">
                         <p class="tab-links active-link " onclick="opentabe('skills')">Skills</p>
                         <p class="tab-links" onclick="opentabe('experinces')">Experinces</p>
@@ -96,7 +96,6 @@
         </div>
     </div>
     <!-- ------------SERVICES******************************---------------------- -->
-
     <div id="services">
         <div class="container">
             <h1 class="subtitle">My Services </h1>
@@ -123,11 +122,10 @@
                 </div>
                 <div>
                     <i class="fa-solid fa-cubes-stacked"></i>
-                    <h2>Backed Developer</h2>
+                    <h2>Backend Developer</h2>
                     <p>
                         I specialize in backend development using ASP.NET and Spring Boot, leveraging JDBC for efficient
                         database connectivity.
-
                     </p>
                     <a href="#">Learn More</a>
                 </div>
@@ -142,62 +140,69 @@
                     <a href="#">Learn More</a>
                 </div>
             </div>
-
         </div>
     </div>
-
-
-
     <!-- *********************************Protfolio***************************** -->
-
     <div id="portfolio">
         <div class="container">
             <h1 class="subtitle">My Work</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="images/work-1.png">
+                    <img src="Projects/Screenshot (570).png">
                     <div class="layer">
                         <h3>
                             Social Media App
                         </h3>
                         <p>
-                            THIS IS APP WHICH USE TO CONNECT USER TO SOCIEAL MEDIA
+                            This is a small spotify Clone
                         </p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://github.com/anand45151/spotify_clone" target="_blank"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-2.png">
+                    <img src="Projects/Screenshot (571).png">
                     <div class="layer">
                         <h3>
-                            Social Media App
+                            Amazon Clone
                         </h3>
                         <p>
-                            THIS IS APP WHICH USE TO CONNECT USER TO SOCIEAL MEDIA
+                            This is the small amazone clone project which i have made using html css and JavaScript
                         </p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://github.com/anand45151/amazon" target="_blank"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-3.png">
+                    <img src="Projects/Screenshot (569).png">
                     <div class="layer">
                         <h3>
-                            Social Media App
+                                Weather Application 
                         </h3>
                         <p>
-                            THIS IS APP WHICH USE TO CONNECT USER TO SOCIEAL MEDIA
+                            This is Weather Web application which will tell you weather of diffrent city
                         </p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://anand45151.github.io/JavaScript_Project_3_Weather_App/" target="_blank"><i
+                                class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
-            </div>
-            <a href="#" class="btn">See More </a>
+                <div class="work">
+                    <img src="Projects/Screenshot (572).png">
+                    <div class="layer">
+                        <h3>
+                                Ecommerce Website 
+                        </h3>
+                        <p>
+                                This is the Complete Ecommerce with admin site . which was made in PHP with laravel frame work  
+                        </p>
+                        <a href="https://github.com/anand45151/Ecommerce_Laravel" target="_blank"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
 
+            </div>
+            <a href="https://github.com/anand45151" class="btn">See More </a>
         </div>
     </div>
     <!-- ---------------------------------Contact-------------------------------------- -->
-
-
     <div id="contact">
         <div class="container">
             <div class="row">
@@ -209,10 +214,9 @@
                         <a href=""><i class="fa-brands fa-square-instagram"></i></a>
                         <a href="https://www.linkedin.com/in/anand-yadav-73b594246/"><i
                                 class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/anand45151"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://github.com/anand45151" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
-
                 <div class="contact-right">
                     <form>
                         <input type="text" name="Name" placeholder="Your Name" required>
@@ -220,17 +224,30 @@
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                         <button type="submit" class="btn btn2">submit</button>
                     </form>
-
                 </div>
                 <a href="images/AnandResume.pdf" download class="btn btn2">Downlod CV</a>
             </div>
         </div>
         <div class="copyright">
             <p>&copy; Anand.</p>
-
         </div>
     </div>
 </body>
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script>
+
+    let typing = new Typed("#text", {
+        strings: ["Android devloper ", "Competitive Programmer", "FrontEnd Devloper"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 1000
+    });
+
+</script>
 <script>
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
@@ -247,13 +264,17 @@
         event.currentTarget.classList.add("active-links");
 
         document.getElementById(tabname).classList.add("active-tab");
-
+        /*
+        
+        UPPAR JAKE PADHI KAR 
+        
+        
+        */
     }
 
 </script>
 <script>
     var sidemenu = document.getElementById("sidemenu");
-
     function openmenu() {
 
         sidemenu.style.right = "0";
@@ -264,6 +285,13 @@
         sidemenu.style.right = "-200px";
 
     }
+
+    // const body = document.body;
+    // const darkModeToggle = document.querySelector('.dark-mode-toggle');
+
+    // darkModeToggle.addEventListener('click', () => {
+    //     body.classList.toggle('dark-mode');
+    // });
 </script>
 
 </html>
